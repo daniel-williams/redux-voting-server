@@ -51,7 +51,7 @@ describe('reducer', () => {
         }));
     });
 
-    it('has and initial state', () => {
+    it('has an initial state', () => {
         const action = {type: 'SET_ENTRIES', entries: ['Trainspotting']};
         const nextState = reducer(undefined, action);
 
